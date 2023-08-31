@@ -5,7 +5,7 @@ Description: >
   CFN-EC2-DEMO1 in "ap-southeast-1a"
 
 Resources:
-  MyEC2Instance:
+  MyEC2Instance1:
     Type: "AWS::EC2::Instance"
     Properties:
       AvailabilityZone: "ap-southeast-1a"
@@ -15,7 +15,7 @@ Resources:
       SubnetId: "subnet-092024c406ccb6827"
       Tags: 
         - Key: "name"
-          Value: "ec2-instance"
+          Value: "ec2-instance1"
      
       
 
