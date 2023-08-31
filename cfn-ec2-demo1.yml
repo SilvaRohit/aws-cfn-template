@@ -15,7 +15,7 @@ Resources:
       SubnetId: "subnet-092024c406ccb6827"
       Tags: 
         - Key: "name"
-          Value: "ec2-instance1"
+          Value: "ec2-instance"
      
       
 
