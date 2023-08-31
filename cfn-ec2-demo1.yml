@@ -1,0 +1,23 @@
+---
+AWSTemplateFormatVersion: "2010-09-09"
+
+Description: >
+  CFN-EC2-DEMO1 in "ap-southeast-1a"
+
+Resources:
+  MyEC2Instance:
+    Type: "AWS::EC2::Instance"
+    Properties:
+      AvailabilityZone: "ap-southeast-1a"
+      ImageId: "ami-0df7a207adb9748c7"
+      InstanceType: "t2.micro"
+      KeyName: "new-aws-keypair"
+      SubnetId: "subnet-092024c406ccb6827"
+     
+      
+
+
+
+
+
+
