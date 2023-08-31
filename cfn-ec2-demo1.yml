@@ -13,6 +13,9 @@ Resources:
       InstanceType: "t2.micro"
       KeyName: "new-aws-keypair"
       SubnetId: "subnet-092024c406ccb6827"
+      Tags: 
+        - Key: "name"
+          Value: "ec2-instance1"
      
       
 
